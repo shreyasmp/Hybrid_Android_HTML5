@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>Hybrid Android App</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/Bridge.js"></script>
+    <script>
+		function login() {
+           Bridge.login(0);
+           window.setTimeout(
+                function() {
+                    Bridge.login(1);
+                          }, 3000);
+		}
+    </script>
+</head>
+
+<body>
+<main id="login">
+    <h1 id="login-header"> LOGIN </h1>
+
+    <form id="login-form">
+        <div class="label">Enter Username</div>
+        <input type="text" name="username" id="username-field" placeholder="Username"><br/>
+        <div class="label">Enter Password</div>
+        <input type="password" name="password" id="password-field" placeholder="Password"><br/>
+        <button onclick="login()" type="submit" class="btn" id="login-button">Login</button>
+    </form>
+</main>
+</body>
+
+</html>
+				

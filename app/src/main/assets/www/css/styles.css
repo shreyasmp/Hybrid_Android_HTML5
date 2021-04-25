@@ -1,0 +1,55 @@
+html {
+    height: 100%
+}
+body {
+	background-color:rgba(255,255,255,0.1);
+}
+
+h1 {
+	color: #001940;
+	text-align: center;
+	font-family: "Courier New";
+	font-size: 50px;
+	padding: 10px:
+	margin: 0px;
+}
+
+#login {
+		width:70%;
+		margin: 0 auto;
+		margin-top: 10%;
+		margin-bottom: 2%;
+		padding: 2%;
+		background-color: #eeeeee;
+		border: 5px solod #0047B2;
+		border-radius: 15px;
+}
+
+.btn {
+	width: 50%;
+	background-color: rgba(160, 204, 20, 0.5);
+	border: 1px solid #0047B2;
+	border-radius: 10px;
+	margin: 0 auto;
+	height: 50px;
+	display: block;
+}
+
+input {
+	width: 100%;
+	background-color: rgba(12, 158, 232, 0.1);
+	border: 1px solid #0047B2;
+	border-radius: 10px;
+	height: 40px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.label {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	text-align: center;
+	vertical-align: middle;
+}
